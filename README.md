@@ -6,10 +6,4 @@ npm install
 
 3. npm start
 
-Open http://localhost:3000 to view it in the browser.
-
-OR
-
-you can directly access this application
-
-https://serene-bell-9d7fe1.netlify.com/
+4. Open http://localhost:3000 to view it in the Chrome browser.
