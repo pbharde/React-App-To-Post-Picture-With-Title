@@ -9,7 +9,6 @@ class UploadItem extends Component {
 
 
     render() {
-      console.log(this.props);
       return(
         <li key={this.props.upload.title} className="list">
           <label>{this.props.upload.title}</label>
