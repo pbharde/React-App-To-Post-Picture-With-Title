@@ -1,33 +1,115 @@
-.App {
-  text-align: center;
+.mainDiv{
+  height: 50px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: black;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+* {
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 50em) {
+  .url, .title, .button, input[type=text]  {
+    width: 50%;
+    margin-top: 0;
   }
 }
+
+.mainDiv input[type=text] {
+    padding: 10px;
+    font-size: 1.5vw;
+    border: 1px solid grey;
+    float: left;
+    resize: vertical;
+    background: white;
+    display: inline-block;
+    margin-left: 20%;
+}
+.mainDiv .url{
+  width: 40em;
+  margin-top: 5%;
+}
+
+.mainDiv .title{
+  width: 33.5em;
+}
+
+ ul{
+  margin-top: 10%;
+}
+
+ li{
+  margin-top: 10%;
+  background: white;
+  margin-left: 17%;
+  padding: 30px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+  width:400;
+  height:400;
+  width: 63%;
+}
+
+ li .image{
+  width: 100%;
+  height: auto;
+    margin-top: 5%;
+}
+
+
+ li label{
+  margin-left: 45%;
+}
+
+.button {
+    float: left;
+    padding: 10px 20px;
+    background: #DCDCDC;
+    color: #696969;
+    max-width: 15%;
+    font-size: 1.5vw;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.head{
+  color:#fff;
+  margin-left: 20%;
+  align:"center" !important;
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 3.25rem;
+  margin-bottom: .625rem;
+  font-family: nexussans,arial,sans-serif;
+  font-feature-settings: "kern" 1,"liga" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 1;
+  font-weight: 100;
+}
+
+    .data{
+      margin-top: 5%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .demo{
+      color: #007398;
+      font-family: nexussans,arial,sans-serif;
+      font-feature-settings: "kern" 1,"liga" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 1;
+      font-weight: 100;
+      font-size: 1.5rem;
+    }
+
+    .heading{
+      color: #e9711c;
+      font-family: nexussans,arial,sans-serif;
+      font-feature-settings: "kern" 1,"liga" 1,"pnum" 1,"tnum" 0,"onum" 1,"lnum" 0,"dlig" 1;
+      font-weight: 100;
+      font-size: 2rem;
+    }
