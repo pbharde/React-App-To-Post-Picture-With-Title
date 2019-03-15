@@ -1,16 +1,4 @@
-.mainDiv{
-  height: 50px;
-}
 
-body{
-  background: black;
-  position: relative;
-}
-
-
-* {
-  box-sizing: border-box;
-}
 
 @media screen and (max-width: 50em) {
   .url, .title, .button, input[type=text]  {
@@ -18,8 +6,20 @@ body{
     margin-top: 0;
   }
 }
+.mainDiv{
+  height: 50px;
+}
 
-.mainDiv input[type=text] {
+body{
+  background: black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text] {
     padding: 10px;
     font-size: 1.5vw;
     border: 1px solid grey;
@@ -29,12 +29,12 @@ body{
     display: inline-block;
     margin-left: 20%;
 }
-.mainDiv .url{
+.url{
   width: 40em;
   margin-top: 5%;
 }
 
-.mainDiv .title{
+.title{
   width: 33.5em;
 }
 
@@ -45,13 +45,11 @@ body{
  li{
   margin-top: 10%;
   background: white;
-  margin-left: 17%;
-  padding: 30px;
+  margin-left: 17.5%;
+  padding: 3%;
   margin-bottom: 15px;
   border-radius: 5px;
   list-style: none;
-  width:400;
-  height:400;
   width: 63%;
 }
 
@@ -63,12 +61,13 @@ body{
 
 
  li label{
-  margin-left: 45%;
+  margin-left: 41%;
+  font-size: 1.5vw;
 }
 
 .button {
     float: left;
-    padding: 10px 21px;
+    padding: 10px 20px;
     background: #DCDCDC;
     color: #696969;
     max-width: 15%;
